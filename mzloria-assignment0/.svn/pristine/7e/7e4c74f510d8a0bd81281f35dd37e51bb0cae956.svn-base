@@ -1,0 +1,33 @@
+/*
+ *  TCSS 305 Autumn 2018
+ *  Assignment 0 
+ */
+
+/**
+ * This is the driver class for this application.
+ * 
+ * @author Michael Zachary Loria
+ * @version October 3 2018
+ */
+public final class HelloMain
+{
+    /**
+     * This is a private constructor that prevents instantiation.
+     */
+    private HelloMain()
+    {
+        //prevents instantiation
+    }
+    
+    /**
+     * The starting point for this application.
+     * 
+     * @param theArgs Command line arguments, which is ignored in this program.
+     */
+    public static void main(final String[] theArgs)
+    {
+        final Hello h = new Hello();
+        h.showMessage();
+    }
+
+}
